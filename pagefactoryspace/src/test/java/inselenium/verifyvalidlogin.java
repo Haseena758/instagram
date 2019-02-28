@@ -16,6 +16,7 @@ public class verifyvalidlogin {
 		//this will create object to pagefactory
 	loginpage log=PageFactory.initElements(driver,loginpage.class);	
 	log.loginaccount("pathanhaseena3@gmail.com", "hello@1234");
+	System.out.println("login sucessful");
 }
 
 }
