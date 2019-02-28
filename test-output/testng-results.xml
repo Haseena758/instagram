@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75735" started-at="2019-02-26T13:15:18Z" finished-at="2019-02-26T13:16:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75735" started-at="2019-02-26T13:15:18Z" finished-at="2019-02-26T13:16:34Z">
+      <class name="SmokeTest.GmailLoginSmoke">
+        <test-method status="PASS" signature="Browserlaunch(org.testng.ITestContext)[pri:0, instance:SmokeTest.GmailLoginSmoke@3532ec19]" name="Browserlaunch" is-config="true" duration-ms="13974" started-at="2019-02-26T13:15:18Z" finished-at="2019-02-26T13:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f627d13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="alogin()[pri:0, instance:SmokeTest.GmailLoginSmoke@3532ec19]" name="alogin" duration-ms="59349" started-at="2019-02-26T13:15:32Z" finished-at="2019-02-26T13:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogin -->
+        <test-method status="PASS" signature="Browserclose()[pri:0, instance:SmokeTest.GmailLoginSmoke@3532ec19]" name="Browserclose" is-config="true" duration-ms="2391" started-at="2019-02-26T13:16:31Z" finished-at="2019-02-26T13:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserclose -->
+      </class> <!-- SmokeTest.GmailLoginSmoke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
